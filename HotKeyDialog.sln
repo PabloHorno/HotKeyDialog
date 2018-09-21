@@ -5,9 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotKeyDialog", "HotKeyDialog\HotKeyDialog.csproj", "{5B384DF8-0DB0-4772-9ACA-DAFD002A543E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "ConsoleApplication\Example.csproj", "{D3555086-DE2B-4127-835D-060BCC335204}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTestApplication", "WindowsFormsTestApplication\WindowsFormsTestApplication.csproj", "{DAC56F3A-94D3-4604-92C6-0EB4F2FDC524}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "WindowsFormsTestApplication\Example.csproj", "{DAC56F3A-94D3-4604-92C6-0EB4F2FDC524}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		{5B384DF8-0DB0-4772-9ACA-DAFD002A543E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B384DF8-0DB0-4772-9ACA-DAFD002A543E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B384DF8-0DB0-4772-9ACA-DAFD002A543E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3555086-DE2B-4127-835D-060BCC335204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3555086-DE2B-4127-835D-060BCC335204}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3555086-DE2B-4127-835D-060BCC335204}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3555086-DE2B-4127-835D-060BCC335204}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DAC56F3A-94D3-4604-92C6-0EB4F2FDC524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DAC56F3A-94D3-4604-92C6-0EB4F2FDC524}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAC56F3A-94D3-4604-92C6-0EB4F2FDC524}.Release|Any CPU.ActiveCfg = Release|Any CPU

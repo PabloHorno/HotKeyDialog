@@ -2,6 +2,7 @@
 
 A (realy) simple library to use a kind of Messagebox for Windows Forms, which will detect the pressed keys and return it for easy assignatios of HotKeys
 
+![](hotkeyDialog.gif)
 ## Getting Started
 
 Here is a solution with two projects on it. One is the actual .dll library and the other is a WindowsFormsApp for testing purposes.

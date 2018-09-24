@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsTestApplication
 {
-    partial class Form1
+    partial class ExampleForm
     {
         /// <summary>
         /// Variable del diseñador necesaria.

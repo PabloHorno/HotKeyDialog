@@ -61,5 +61,12 @@ namespace HotKeyDialog
         {
             return Show(null, title, description);
         }
+        public static DialogResult Show(string title, string description, out HotKey hotKey)
+        {
+            var form = new HotKeyForm(title, description);
+            DialogResult dialogResult = form.ShowDialog();
+            hotKey = form.hotKeyPressed;
+            return dialogResult;
+        }
     }
 }

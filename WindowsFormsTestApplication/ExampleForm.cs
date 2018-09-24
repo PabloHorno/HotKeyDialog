@@ -26,8 +26,10 @@ namespace WindowsFormsTestApplication
         void Example1()
         {
             HotKey hotkey = new HotKey();
-            hotkey = HotKeyMessageBox.Show("Title", "Please press the key combination");
-            label1.Text = "You have pressed the keys: " + hotkey.ToString();
+            if (HotKeyMessageBox.Show("Title", "Please press the key combination", out hotkey) == DialogResult.OK)
+                label1.Text = "You have pressed the keys: " + hotkey.ToString();
+            else
+                label1.Text = "You have closed the dialog. There is no input";
         }
         void Example2()
         {

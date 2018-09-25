@@ -37,7 +37,9 @@ label1.Text = "You have pressed the keys: " + hotkey.ToString();
 
 ### Installing
 
-TODO
+1. Download the _HotKeyDialog.dll_ and the open your project in visual studio
+2. Go to **References** -> **Add** ->**Browse**
+3. The find the path where you downloaded the .dll and thats it.
 
 ## Authors
 

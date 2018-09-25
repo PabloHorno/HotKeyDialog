@@ -41,6 +41,10 @@ label1.Text = "You have pressed the keys: " + hotkey.ToString();
 2. Go to **References** -> **Add** ->**Browse**
 3. The find the path where you downloaded the .dll and thats it.
 
+### Dowloading
+
+You can download the library from here [Release v1.0](https://github.com/PabloHorno/HotKeyDialog/releases/tag/v1.0)
+
 ## Authors
 
 * **Pablo Horno** - *Initial work* - [PabloHorno](https://github.com/PabloHorno)

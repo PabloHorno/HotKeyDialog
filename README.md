@@ -29,10 +29,12 @@ Full code
 using HotKeyDialog;
 ...
 
-HotKey hotkey = new HotKey();
-hotkey = HotKeyMessageBox.Show("Title", "Please press the key combination");
+ HotKey hotkey = new HotKey();
 
-label1.Text = "You have pressed the keys: " + hotkey.ToString();
+ if (HotKeyMessageBox.Show("Title", "Please press the key combination", out hotkey) == DialogResult.OK)
+     label.Text = "You have pressed the keys: " + hotkey.ToString();
+ else
+     label.Text = "You have closed the dialog. There is no input";
 ```
 
 ### Installing

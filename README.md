@@ -1,6 +1,7 @@
 # HotKeyDialog
 
 A (realy) simple library to use a kind of Messagebox for Windows Forms, which will detect the pressed keys and return it for easy assignatios of HotKeys
+
 ![CI](https://github.com/PabloHorno/HotKeyDialog/workflows/CI/badge.svg)
 
 ![](hotkeyDialog.gif)

@@ -5,6 +5,8 @@ A (realy) simple library to use a kind of Messagebox for Windows Forms, which wi
 ![CI](https://github.com/PabloHorno/HotKeyDialog/workflows/CI/badge.svg)
 
 ![](hotkeyDialog.gif)
+
+![](https://vistr.dev/badge?repo=PabloHorno.HotKeyDialog)
 ## Getting Started
 
 Here is a solution with two projects on it. One is the actual .dll library and the other is a WindowsFormsApp for testing purposes.
